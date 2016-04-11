@@ -10,15 +10,37 @@
 		271771651CBC1087003BF13C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 271771641CBC1087003BF13C /* main.cpp */; };
 		2717716F1CBC1986003BF13C /* CompilationEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2717716B1CBC1986003BF13C /* CompilationEngine.cpp */; };
 		271771701CBC1986003BF13C /* JackTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2717716D1CBC1986003BF13C /* JackTokenizer.cpp */; };
+		271771721CBC1BC8003BF13C /* AverageMain.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771711CBC1BC8003BF13C /* AverageMain.jack */; };
+		271771741CBC1BD8003BF13C /* ComplexArraysMain.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771731CBC1BD8003BF13C /* ComplexArraysMain.jack */; };
+		271771761CBC1BE9003BF13C /* ConvertToBinMain.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771751CBC1BE9003BF13C /* ConvertToBinMain.jack */; };
+		2717717B1CBC1C02003BF13C /* Ball.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771771CBC1C02003BF13C /* Ball.jack */; };
+		2717717C1CBC1C02003BF13C /* Bat.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771781CBC1C02003BF13C /* Bat.jack */; };
+		2717717D1CBC1C02003BF13C /* PongGame.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771791CBC1C02003BF13C /* PongGame.jack */; };
+		2717717E1CBC1C02003BF13C /* PongMain.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2717717A1CBC1C02003BF13C /* PongMain.jack */; };
+		271771801CBC1C61003BF13C /* SevenMain.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2717717F1CBC1C61003BF13C /* SevenMain.jack */; };
+		271771841CBC1C90003BF13C /* Square.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771811CBC1C90003BF13C /* Square.jack */; };
+		271771851CBC1C90003BF13C /* SquareGame.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771821CBC1C90003BF13C /* SquareGame.jack */; };
+		271771861CBC1C90003BF13C /* SquareMain.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771831CBC1C90003BF13C /* SquareMain.jack */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2717715F1CBC1087003BF13C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 16;
 			files = (
+				271771841CBC1C90003BF13C /* Square.jack in CopyFiles */,
+				271771851CBC1C90003BF13C /* SquareGame.jack in CopyFiles */,
+				271771861CBC1C90003BF13C /* SquareMain.jack in CopyFiles */,
+				271771801CBC1C61003BF13C /* SevenMain.jack in CopyFiles */,
+				2717717B1CBC1C02003BF13C /* Ball.jack in CopyFiles */,
+				2717717C1CBC1C02003BF13C /* Bat.jack in CopyFiles */,
+				2717717D1CBC1C02003BF13C /* PongGame.jack in CopyFiles */,
+				2717717E1CBC1C02003BF13C /* PongMain.jack in CopyFiles */,
+				271771761CBC1BE9003BF13C /* ConvertToBinMain.jack in CopyFiles */,
+				271771741CBC1BD8003BF13C /* ComplexArraysMain.jack in CopyFiles */,
+				271771721CBC1BC8003BF13C /* AverageMain.jack in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -31,6 +53,17 @@
 		2717716C1CBC1986003BF13C /* CompilationEngine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CompilationEngine.hpp; sourceTree = "<group>"; };
 		2717716D1CBC1986003BF13C /* JackTokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JackTokenizer.cpp; sourceTree = "<group>"; };
 		2717716E1CBC1986003BF13C /* JackTokenizer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JackTokenizer.hpp; sourceTree = "<group>"; };
+		271771711CBC1BC8003BF13C /* AverageMain.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = AverageMain.jack; sourceTree = "<group>"; };
+		271771731CBC1BD8003BF13C /* ComplexArraysMain.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = ComplexArraysMain.jack; sourceTree = "<group>"; };
+		271771751CBC1BE9003BF13C /* ConvertToBinMain.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConvertToBinMain.jack; sourceTree = "<group>"; };
+		271771771CBC1C02003BF13C /* Ball.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = Ball.jack; sourceTree = "<group>"; };
+		271771781CBC1C02003BF13C /* Bat.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = Bat.jack; sourceTree = "<group>"; };
+		271771791CBC1C02003BF13C /* PongGame.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = PongGame.jack; sourceTree = "<group>"; };
+		2717717A1CBC1C02003BF13C /* PongMain.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = PongMain.jack; sourceTree = "<group>"; };
+		2717717F1CBC1C61003BF13C /* SevenMain.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = SevenMain.jack; sourceTree = "<group>"; };
+		271771811CBC1C90003BF13C /* Square.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = Square.jack; sourceTree = "<group>"; };
+		271771821CBC1C90003BF13C /* SquareGame.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = SquareGame.jack; sourceTree = "<group>"; };
+		271771831CBC1C90003BF13C /* SquareMain.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = SquareMain.jack; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,12 @@
 		271771581CBC1087003BF13C = {
 			isa = PBXGroup;
 			children = (
+				2717718C1CBC1DD7003BF13C /* ComplexArrays */,
+				2717718B1CBC1DBF003BF13C /* ConvertToBin */,
+				2717718A1CBC1DA2003BF13C /* Seven */,
+				271771891CBC1D8C003BF13C /* Average */,
+				271771881CBC1D1C003BF13C /* Pong */,
+				271771871CBC1CF8003BF13C /* Square */,
 				271771631CBC1087003BF13C /* CodeGenerator */,
 				271771621CBC1087003BF13C /* Products */,
 			);
@@ -70,6 +109,59 @@
 				2717716E1CBC1986003BF13C /* JackTokenizer.hpp */,
 			);
 			path = CodeGenerator;
+			sourceTree = "<group>";
+		};
+		271771871CBC1CF8003BF13C /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				271771831CBC1C90003BF13C /* SquareMain.jack */,
+				271771811CBC1C90003BF13C /* Square.jack */,
+				271771821CBC1C90003BF13C /* SquareGame.jack */,
+			);
+			name = Square;
+			sourceTree = "<group>";
+		};
+		271771881CBC1D1C003BF13C /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				271771771CBC1C02003BF13C /* Ball.jack */,
+				271771781CBC1C02003BF13C /* Bat.jack */,
+				271771791CBC1C02003BF13C /* PongGame.jack */,
+				2717717A1CBC1C02003BF13C /* PongMain.jack */,
+			);
+			name = Pong;
+			sourceTree = "<group>";
+		};
+		271771891CBC1D8C003BF13C /* Average */ = {
+			isa = PBXGroup;
+			children = (
+				271771711CBC1BC8003BF13C /* AverageMain.jack */,
+			);
+			name = Average;
+			sourceTree = "<group>";
+		};
+		2717718A1CBC1DA2003BF13C /* Seven */ = {
+			isa = PBXGroup;
+			children = (
+				2717717F1CBC1C61003BF13C /* SevenMain.jack */,
+			);
+			name = Seven;
+			sourceTree = "<group>";
+		};
+		2717718B1CBC1DBF003BF13C /* ConvertToBin */ = {
+			isa = PBXGroup;
+			children = (
+				271771751CBC1BE9003BF13C /* ConvertToBinMain.jack */,
+			);
+			name = ConvertToBin;
+			sourceTree = "<group>";
+		};
+		2717718C1CBC1DD7003BF13C /* ComplexArrays */ = {
+			isa = PBXGroup;
+			children = (
+				271771731CBC1BD8003BF13C /* ComplexArraysMain.jack */,
+			);
+			name = ComplexArrays;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
