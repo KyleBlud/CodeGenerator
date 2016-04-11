@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		271771651CBC1087003BF13C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 271771641CBC1087003BF13C /* main.cpp */; };
+		2717716F1CBC1986003BF13C /* CompilationEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2717716B1CBC1986003BF13C /* CompilationEngine.cpp */; };
+		271771701CBC1986003BF13C /* JackTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2717716D1CBC1986003BF13C /* JackTokenizer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		271771611CBC1087003BF13C /* CodeGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		271771641CBC1087003BF13C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2717716B1CBC1986003BF13C /* CompilationEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CompilationEngine.cpp; sourceTree = "<group>"; };
+		2717716C1CBC1986003BF13C /* CompilationEngine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CompilationEngine.hpp; sourceTree = "<group>"; };
+		2717716D1CBC1986003BF13C /* JackTokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JackTokenizer.cpp; sourceTree = "<group>"; };
+		2717716E1CBC1986003BF13C /* JackTokenizer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JackTokenizer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				271771641CBC1087003BF13C /* main.cpp */,
+				2717716B1CBC1986003BF13C /* CompilationEngine.cpp */,
+				2717716C1CBC1986003BF13C /* CompilationEngine.hpp */,
+				2717716D1CBC1986003BF13C /* JackTokenizer.cpp */,
+				2717716E1CBC1986003BF13C /* JackTokenizer.hpp */,
 			);
 			path = CodeGenerator;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				271771651CBC1087003BF13C /* main.cpp in Sources */,
+				2717716F1CBC1986003BF13C /* CompilationEngine.cpp in Sources */,
+				271771701CBC1986003BF13C /* JackTokenizer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +249,7 @@
 				2717716A1CBC1087003BF13C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

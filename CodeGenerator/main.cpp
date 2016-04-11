@@ -7,9 +7,11 @@
 //
 
 #include <iostream>
+#include "CompilationEngine.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    CompilationEngine ce("");
+    
     return 0;
 }
