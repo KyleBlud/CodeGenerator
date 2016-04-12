@@ -11,11 +11,7 @@
 
 int main(int argc, const char * argv[]) {
     
-    //CompilationEngine ce("");
-    while(1)
-    {
-        cout<<"JOSH BURKS\n";
-    }
+    CompilationEngine ce("");
     
     return 0;
 }

@@ -21,6 +21,7 @@
 		271771841CBC1C90003BF13C /* Square.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771811CBC1C90003BF13C /* Square.jack */; };
 		271771851CBC1C90003BF13C /* SquareGame.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771821CBC1C90003BF13C /* SquareGame.jack */; };
 		271771861CBC1C90003BF13C /* SquareMain.jack in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271771831CBC1C90003BF13C /* SquareMain.jack */; };
+		2717718F1CBD7138003BF13C /* SymbolTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2717718D1CBD7138003BF13C /* SymbolTable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,9 @@
 		271771811CBC1C90003BF13C /* Square.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = Square.jack; sourceTree = "<group>"; };
 		271771821CBC1C90003BF13C /* SquareGame.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = SquareGame.jack; sourceTree = "<group>"; };
 		271771831CBC1C90003BF13C /* SquareMain.jack */ = {isa = PBXFileReference; lastKnownFileType = text; path = SquareMain.jack; sourceTree = "<group>"; };
+		2717718D1CBD7138003BF13C /* SymbolTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SymbolTable.cpp; sourceTree = "<group>"; };
+		2717718E1CBD7138003BF13C /* SymbolTable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SymbolTable.hpp; sourceTree = "<group>"; };
+		271771901CBD716F003BF13C /* TableEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableEntry.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,9 @@
 				2717716C1CBC1986003BF13C /* CompilationEngine.hpp */,
 				2717716D1CBC1986003BF13C /* JackTokenizer.cpp */,
 				2717716E1CBC1986003BF13C /* JackTokenizer.hpp */,
+				2717718D1CBD7138003BF13C /* SymbolTable.cpp */,
+				2717718E1CBD7138003BF13C /* SymbolTable.hpp */,
+				271771901CBD716F003BF13C /* TableEntry.h */,
 			);
 			path = CodeGenerator;
 			sourceTree = "<group>";
@@ -222,6 +229,7 @@
 			files = (
 				271771651CBC1087003BF13C /* main.cpp in Sources */,
 				2717716F1CBC1986003BF13C /* CompilationEngine.cpp in Sources */,
+				2717718F1CBD7138003BF13C /* SymbolTable.cpp in Sources */,
 				271771701CBC1986003BF13C /* JackTokenizer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
