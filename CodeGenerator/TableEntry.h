@@ -17,26 +17,45 @@
 
 using std::string;
 
+struct Identifier
+{
+    string type;
+    int kind;
+    int number;
+};
+
 class TableEntry
 {
 private:
-    string symbol; // key
-    int address; // value
+    string key; // key
+    Identifier values; // values
 public:
-    TableEntry(string symbol, int address)
+    TableEntry(string key, string type, int kind, int number)
     {
-        this->symbol = symbol;
-        this->address = address;
+        this->key = key;
+        values.type = type;
+        values.kind = kind;
+        values.number = number;
     }
-    
+
     string getKey()
     {
-        return symbol;
+        return key;
     }
     
-    int getValue()
+    string getType()
     {
-        return address;
+        return values.type;
+    }
+    
+    int getKindOf()
+    {
+        return values.kind;
+    }
+    
+    int getNumber()
+    {
+        return values.number;
     }
 };
 

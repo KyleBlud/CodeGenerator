@@ -8,10 +8,11 @@
 
 #include <iostream>
 #include "CompilationEngine.hpp"
+#include "IdentifierTable.hpp"
 
 int main(int argc, const char * argv[]) {
     
-    CompilationEngine ce("");
+    //CompilationEngine ce("");
     
     return 0;
 }
